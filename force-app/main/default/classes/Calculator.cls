@@ -2,7 +2,10 @@ public with sharing class Calculator {
     public Calculator() {
 
     }
-    poublic Integer add(Integer a , Integer b){
+    poublic integer add(Integer a , Integer b){
         return a+b;
+    }
+    poublic integer sub(Integer a , Integer b){
+        return a-b;
     }
 }
