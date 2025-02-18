@@ -8,4 +8,7 @@ public with sharing class Calculator {
     poublic integer sub(Integer a , Integer b){
         return a-b;
     }
+    poublic integer div(Integer a , Integer b){
+        return a/b;
+    }
 }
