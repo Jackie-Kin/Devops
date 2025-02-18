@@ -2,13 +2,13 @@ public with sharing class Calculator {
     public Calculator() {
 
     }
-    poublic integer add(Integer a , Integer b){
+    public integer add(Integer a , Integer b){
         return a+b;
     }
-    poublic integer sub(Integer a , Integer b){
+    public integer sub(Integer a , Integer b){
         return a-b;
     }
-    poublic integer div(Integer a , Integer b){
+    public integer div(Integer a , Integer b){
         return a/b;
     }
 }
